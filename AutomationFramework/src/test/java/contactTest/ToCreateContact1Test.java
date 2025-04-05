@@ -30,7 +30,7 @@ public class ToCreateContact1Test extends BaseClass
 		ccp.getLastnameTextField().sendKeys(LASTNAME);
 		ccp.getSaveButton().click();
 		//fail
-		Assert.fail();																			//listener
+		//Assert.fail();																			//listener
 		ContactsInfoPage cip=new ContactsInfoPage(driver);
 		String lastname=cip.getContactsHeader().getText();
 		Assert.assertTrue(lastname.contains(LASTNAME));
