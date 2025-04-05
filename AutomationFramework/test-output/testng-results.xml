@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---Database Connection Established---]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger HomePage Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[---Database Disconnected Sucessfully---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-03T10:42:53 IST" name="Default suite" finished-at="2025-04-03T10:43:05 IST" duration-ms="11925">
+    <groups>
+      <group name="Smoke">
+        <method signature="ToCreateContact1Test.toCreateContact_001()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" name="toCreateContact_001" class="contactTest.ToCreateContact1Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-04-03T10:42:53 IST" name="Default test" finished-at="2025-04-03T10:43:05 IST" duration-ms="11925">
+      <class name="contactTest.ToCreateContact1Test">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:42:53 IST" name="bsConfig" finished-at="2025-04-03T10:42:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Database Connection Established---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:42:53 IST" name="bcConfig" finished-at="2025-04-03T10:42:56 IST" duration-ms="2760" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:42:56 IST" name="bmConfig" finished-at="2025-04-03T10:42:57 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger HomePage Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContact_001()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:42:57 IST" name="toCreateContact_001" finished-at="2025-04-03T10:43:04 IST" duration-ms="6087" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at contactTest.ToCreateContact1Test.toCreateContact_001(ToCreateContact1Test.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:43:04 IST" name="amConfig" finished-at="2025-04-03T10:43:05 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:43:05 IST" name="acConfig" finished-at="2025-04-03T10:43:05 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:contactTest.ToCreateContact1Test@77f1baf5]" started-at="2025-04-03T10:43:05 IST" name="asConfig" finished-at="2025-04-03T10:43:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Database Disconnected Sucessfully---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- contactTest.ToCreateContact1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

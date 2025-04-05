@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="OrganizationTest.ToCreateOrgWithType4Test">
+        <methods>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="toCreateOrgWithTypeDropdown_003"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrgWithType4Test -->
+      <class name="OrganizationTest.ToCreateOrg2Test">
+        <methods>
+          <include name="acConfig"/>
+          <include name="toCreateOrg_001"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrg2Test -->
+      <class name="contactTest.ToCreateContactWithOrg5Test">
+        <methods>
+          <include name="toCreateContactWithOrg_002"/>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- contactTest.ToCreateContactWithOrg5Test -->
+      <class name="OrganizationTest.ToCreateOrgWithIndustry3Test">
+        <methods>
+          <include name="toCreateOrg_002"/>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrgWithIndustry3Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="OrganizationTest.ToCreateOrgWithType4Test">
+        <methods>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="toCreateOrgWithTypeDropdown_003"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrgWithType4Test -->
+      <class name="OrganizationTest.ToCreateOrg2Test">
+        <methods>
+          <include name="acConfig"/>
+          <include name="toCreateOrg_001"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrg2Test -->
+      <class name="contactTest.ToCreateContactWithOrg5Test">
+        <methods>
+          <include name="toCreateContactWithOrg_002"/>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- contactTest.ToCreateContactWithOrg5Test -->
+      <class name="OrganizationTest.ToCreateOrgWithIndustry3Test">
+        <methods>
+          <include name="toCreateOrg_002"/>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- OrganizationTest.ToCreateOrgWithIndustry3Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
